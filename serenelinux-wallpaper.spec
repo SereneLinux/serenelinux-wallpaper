@@ -1,8 +1,9 @@
 Summary: serenelinux wallpaper
 Name: serenelinux-wallpaper
-Version: 1.0.1
+Version: 1.0.2
 Release: 1%{?dist}
 Group: User Interface/Desktops
+BuildArch: noarch
 License: NONE
 Packager: kokkiemouse
 Vendor: INDETAIL
