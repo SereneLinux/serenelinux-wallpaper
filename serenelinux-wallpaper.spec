@@ -22,7 +22,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %install
 rm -rf README.md
-cp -arf ./ $RPM_BUILD_ROOT/
+mkdir -p $RPM_BUILD_ROOT/
+cp -arf ./usr $RPM_BUILD_ROOT/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
